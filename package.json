@@ -1,0 +1,24 @@
+{
+  "name": "flix-simpsons",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CrysMello/Flix-Simpsons.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/CrysMello/Flix-Simpsons/issues"
+  },
+  "homepage": "https://github.com/CrysMello/Flix-Simpsons#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "nodemon": "^2.0.12"
+  }
+}
