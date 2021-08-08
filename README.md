@@ -24,6 +24,8 @@ Criação de um CRUD de todos os epsodios dos simpsons.
 > Modela o esquema de dados para o banco.
 #### 📂Data
 > Cria a configuração de conexão com o banco.
+### 📂__Test__
+> Aplicando testes(TDD) na API.
 
 `Tecnologias`
 | Ferramenta | Descrição |
