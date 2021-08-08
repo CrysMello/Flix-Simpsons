@@ -11,7 +11,9 @@ db.connect()
 
 
 
-
+app.get("/",(req, res) => {
+    res.status(200).send();
+})
 
 app.use(express.json())
 

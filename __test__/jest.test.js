@@ -17,3 +17,4 @@ test("trabalhando com objeto",() => {
     const obj2 = { title: "There's No Disgrace Like Home" };
     expect(obj).toEqual(obj2);
 });
+
