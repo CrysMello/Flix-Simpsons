@@ -1,5 +1,5 @@
-const express = require("express")
-const app = express()
+const app = require("./app")
+
 const PORT = 8080
 
 
@@ -9,12 +9,8 @@ const db = require("./src/data/database.js")
 
 db.connect()
 
+//app.use(express.json())
 
 
-app.get("/",(req, res) => {
-    res.status(200).send();
-})
 
-app.use(express.json())
-
-app.listen(PORT, ()=> console.log("Servidor conectado!"))
+app.listen(PORT, () => console.log("Servidor conectado!"))
